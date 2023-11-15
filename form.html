@@ -17,14 +17,45 @@
     </header>
     <main>
         <form>
-            <label for="protein">What type of protein would you like?</label><br>
+            <label for="protein">What type of protein would you like?</label>
             <input type="text" id="fname" name="fname"><br>
             <hr>
-            <label for="patties">How many patties would you like?</label><br>
+            <label for="patties">How many patties would you like?</label>
             <input type="text" id="lname" name="lname"> <br>
             <label for="cooked">How do you want your patty cooked?</label><br>
-            <input type="range" id="burger" name="burger" min="Rare" max="Well done" /> <br>
+            <input type="range" id="burger" name="burger" min=Rare max=Well /> <br>
             <hr>
+            <label for="toppings">What toppings what do you like?</label><br>
+            <input name="Lettuce3" type="radio" value="Lettuce" id="Lettuce"/>
+            <label for="Lettuce">Lettuce</label>
+            <input name="Tomato" type="radio" value="Tomato" id="Tomato"/>
+            <label for="Tomato">Tomato</label>
+            <input name="Onion" type="radio" value="Onion" id="Onion"/>
+            <label for="Onion">Onion</label>
+            <br>
+            <hr>
+            <label for="cheese">Would you like to add cheese?</label><br>
+            <input name="yescheese" type="checkbox" value="yescheese" id="yescheese"/>
+            <label for="yescheese">Yes</label>
+            <input name="nocheese" type="checkbox" value="nocheese" id="nocheese"/>
+            <label for="nocheese">No</label>
+            <hr>
+            <label for="bun">What type of bun would you like?</label>
+            <select name="bun" id="bun">
+                <option value="Sesame">Sesame</option>
+              <option value="potato">Potato</option>
+              <option value="pretzel">Pretzel</option>
+            </select>
+            <hr>
+            <label for="cheese">What type of sause would you like?</label>
+            <input name="sauce" type="text" value="" id=""/>
+            <hr>
+            <label for="else">Anything else you want to add?</label><br>
+            <textarea id="else" name="else" rows="5" cols="33">
+                
+                </textarea>
+            <hr>
+            <input name="Submit" type="Submit" value="Submit" id="Submit"/>
         </form>
     </main>
 </body>
